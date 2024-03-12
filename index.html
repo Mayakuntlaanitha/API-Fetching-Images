@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="fetch.css">
+</head>
+<body>
+
+    <div class="container1">
+
+		<div class="profile">
+
+			<div class="profile-image">
+
+				<img src="https://images.unsplash.com/photo-1513721032312-6a18a42c8763?w=152&h=152&fit=crop&crop=faces" alt="">
+
+			</div>
+
+			<div class="profile-user-settings">
+
+				<h1 class="profile-user-name">anithakesava_1231</h1>
+
+				<button class="btn profile-edit-btn">Edit Profile</button>
+
+				<button class="btn profile-settings-btn" aria-label="profile settings"><i class="fas fa-cog" aria-hidden="true"></i></button>
+
+			</div>
+
+			<div class="profile-stats">
+
+				<ul>
+					<li><span class="profile-stat-count">164</span> posts</li>
+					<li><span class="profile-stat-count">188</span> followers</li>
+					<li><span class="profile-stat-count">206</span> following</li>
+				</ul>
+
+			</div>
+
+			<div class="profile-bio">
+
+				<p><span class="profile-real-name">Anitha</span> Lorem ipsum dolor sit, amet consectetur adipisicing elit /p>
+
+			</div>
+
+		</div>
+
+    
+
+     <div class="container"> 
+       <!-- <div class="image"><img src="instra.png" alt=""></div>  -->
+
+
+       <div class="content">
+           <a href="#">NAME: MAYAKUNTLA ANITHA</a><br>
+           <a href="#">ROLE: FRONTEND DEVELOPER</a><br>
+           <a href="#">SKILLS: HTML, CSS, BOOTSTRAP, JAVASCRIPT, REACT </a>
+       </div> 
+    </div> 
+
+
+    <h1>POST</h1>
+
+    <div id="image-container"></div>
+
+    <button id="load-more-btn" onclick="loadMoreImages()">Load More</button>
+
+    <script src="fetch.js"></script>
+</body>
+</html>
