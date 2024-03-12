@@ -30,3 +30,5 @@ Security Considerations: When working with APIs, it's crucial to consider securi
 # Conclusion
 
 In conclusion, my experience with the Image Fetcher Pro project has equipped me with valuable skills in API integration, image retrieval, user interface development, and project management. Through this project, I have demonstrated proficiency in handling authentication processes, optimizing performance, and ensuring a seamless user experience.
+
+
